@@ -5,10 +5,10 @@
 
 2D video Game : **UBomb**.
 
-Original Repo : https://github.com/reveillere/UBomb-student
-Gitlab-Repo: https://gitlab.com/6pi/poo
+* Original Repo : https://github.com/reveillere/UBomb-student
+* Gitlab-Repo: https://gitlab.com/6pi/poo
 
-## Principes du jeu
+## Game / Principes du jeu
 
 A princess is captured by horrible green monsters. Your mission if you accept it, is to rescue the princess. To achieve this mission you will have to 
 go through multiple worlds, each one being more scarier than others. Doors let you travel from one world to another. Some doors are locked, those
@@ -19,7 +19,7 @@ doors requires you to have a key in your inventory. You are an expert in bombs, 
 Une princesse est détenue prisonnière par de méchants monstres verts. Votre mission, si vous l'acceptez, est d'aller la délivrer. Pour cela, vous devrez traverser plusieurs mondes, plus effrayants les uns que les autres. Des portes vous permettront de passer de mondes en mondes. Certaines portes seront fermées à clés et nécessiteront d'avoir une clé dans votre inventaire. Vous êtes un expert en explosif et utiliserez vos bombes pour détruire les obstacles devant vous et tuer les monstres qui vous attaqueront.
 
 
-## Représentation du jeu
+## Representation of the game / Représentation du jeu
 
 Each world is represented by a rectangular map composed of cells. Each cells can contain:
 
@@ -50,7 +50,7 @@ Chaque monde est représenté par une carte (rectangulaire) composée de cellule
 
 ![Bombeirb](img/ubomb.png)
 
-## Prise en main
+## Start / Prise en main
 
 We give you a draft of the game, by using the library JavaFX. Running the game show a minimalistic map, load static in memory, in this map the player
 can move in all directions no matter the cell.
@@ -228,7 +228,7 @@ n’a plus de vie, la partie se termine. Le joueur bénéficie alors d’une tem
 Monsters move randomly. A collision with a monster cause to loose a life.
 Monsters are afraid of doors and can't go through them.
 
-**To go further.**The speed of the monster increases when getting closer to the princess.
+**To go further.** The speed of the monster increases when getting closer to the princess.
 Add an AI for the monster to follow the player.
 
 ---
